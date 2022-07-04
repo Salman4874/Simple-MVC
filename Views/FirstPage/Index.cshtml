@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="text-center">
+    <h1>Welcome To Our Services</h1>
+    <p>All related student and teacher entrees</p>
+    <div class=" container p-3">
+        <div class="row pt-4">
+        <div class="col-6">
+        <button class="btn btn-primary" style="font-size: 50px; border-radius:12px"><a asp-controller="Student" asp-action="Index" style="color:white; text-decoration:none;"><i class="bi bi-person-circle"></i>&nbsp; Student Services</a> </button>
+    </div>
+    <div class="col-6">
+        <button class="btn btn-primary" style="font-size: 50px; border-radius:12px"><a asp-controller="Teacher" asp-action="Index" style="color:white; text-decoration:none;"><i class="bi bi-person-circle"></i> &nbsp; Teacher Services</a></button>
+    </div>
+    </div>
+    </div>
+    <br />
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-4">
+               <img src="~/css/Student.jpg" alt="School" width="300px" height="230px"/>
+            </div>
+            <div class="col-4">
+                <img src="~/css/school.jpg" alt="School" width="300px" height="230px">
+            </div>
+            <div class="col-4">
+                <img src="~/css/studentt3.jpg" alt="School" width="300px" height="230px">
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
